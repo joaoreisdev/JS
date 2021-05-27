@@ -5,14 +5,14 @@ const imprimirSoma = function (a, b){
 
 imprimirSoma(2, 3)
 
-// Armazenando uma funcao arrow em uma variável
+// (Arrow Function) 
 const soma = (a, b) => {
     return a + b
 }
 
 console.log(soma(2, 5));
 
-// retorno implícito (linha única)
+// (Arrow Function) Retorno implícito 
 const subtracao = (a, b) => a - b
 
 console.log(subtracao(5, 2));
